@@ -6,6 +6,15 @@
 ###不指定情况下默认为：org.apache.tomcat.jdbc.pool.DataSource
 ###当然你也可以把这些数据源配置到主dataSource数据库中，然后读取数据库生成多数据源。当然这样做的必要性并不大，难不成数据源还会经常变吗。
 ########################################################
+
+# IDENTITY
+spring.application.name=api
+server.context-path=/api
+spring.application.index=/
+server.session-timeout=60
+spring.profiles.active=dev
+server.port=8082
+
  
 # 主数据源，默认的
 #spring.datasource.type=com.zaxxer.hikari.HikariDataSource
