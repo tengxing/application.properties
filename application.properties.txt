@@ -1,10 +1,9 @@
 ########################################################
-###配置文件包括1个主数据源和多个数据源，
-###其中主数据源在Spring中的beanName默认为dataSource，
-###另外几个数据源的beanName分包为：ds1、ds2、ds3
-###其中datasource的type属性可以具体指定到我们需要的数据源上面，
-###不指定情况下默认为：org.apache.tomcat.jdbc.pool.DataSource
-###当然你也可以把这些数据源配置到主dataSource数据库中，然后读取数据库生成多数据源。当然这样做的必要性并不大，难不成数据源还会经常变吗。
+###SpringBoot
+###常用properties
+###mail:tengxing7452@163.com
+###github:github.com/tengxing
+###author:Starry.Teng
 ########################################################
 
 # IDENTITY
