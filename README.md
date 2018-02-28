@@ -1,6 +1,6 @@
 # application.properties
-A properties file of SpringBoot application
-
+A common file of SpringBoot application
+SpringBoot配置文件，使用的时候直接使用:Ctrl+f 
 
 ```
 # ===================================================================
